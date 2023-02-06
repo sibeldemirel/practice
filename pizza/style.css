@@ -27,7 +27,7 @@ header {
 
 .list {
   list-style: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans300", sans-serif;
 }
 .list li {
   padding: 10px;
@@ -35,6 +35,17 @@ header {
 }
 .list a {
   text-decoration: none;
+}
+
+main {
+  background-color: rgb(229, 228, 228);
+  padding: 40px;
+}
+main .bg-image {
+  height: 250px;
+}
+main .title {
+  color: #f12c0e;
 }
 
 /*# sourceMappingURL=style.css.map */
