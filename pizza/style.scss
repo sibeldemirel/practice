@@ -53,6 +53,19 @@ main{
     }
 
     & .title{
+        font-family: 'Open Sans300', sans-serif;
         color: #f12c0e;
+        text-align: center;
+        padding: 15px;
+        background-color: white;
+
+    }
+
+    & .description{
+        width: 450px;
+        text-align: center;
+        padding: 15px;
+        background-color: white;
+
     }
 }
