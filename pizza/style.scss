@@ -22,6 +22,8 @@ header{
 .flex{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .logo{
@@ -79,7 +81,23 @@ main{
 
     }
 
+    & .cards{
+        padding: 20px;;
+    }
+
     & .card{
         background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+        width:45%;
+
+        & .image{
+            & img{
+                height: 190px;
+                width: 220px;
+            }
+        }
+
+
     }
 }

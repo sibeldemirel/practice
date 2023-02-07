@@ -17,6 +17,7 @@ header {
 .flex {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -65,8 +66,18 @@ main .description {
   text-align: center;
   padding: 15px;
 }
+main .cards {
+  padding: 20px;
+}
 main .card {
   background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  width: 45%;
+}
+main .card .image img {
+  height: 190px;
+  width: 220px;
 }
 
 /*# sourceMappingURL=style.css.map */
