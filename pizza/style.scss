@@ -25,9 +25,9 @@ header{
 }
 
 .logo{
-    height: 110px;
+    height: 120px;
     position: relative;
-    top: -13px;
+    top: -18px;
 }
 
 .list{
@@ -49,23 +49,33 @@ main{
     padding: 40px;
 
     & .bg-image{
-        height: 250px;
+        height: 180px;
     }
 
     & .title{
-        font-family: 'Open Sans300', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
         color: #f12c0e;
         text-align: center;
         padding: 15px;
+
+    }
+
+    & .middle{
+        margin: auto;
+        margin-left: 70px;
+        padding: 10px;
         background-color: white;
 
     }
 
     & .description{
-        width: 450px;
+        font-family: 'Open Sans600', sans-serif;
+        font-weight: 10px;
+        font-size: 14px;
+        width: 430px;
         text-align: center;
         padding: 15px;
-        background-color: white;
 
     }
 }
