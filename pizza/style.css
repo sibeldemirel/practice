@@ -65,5 +65,8 @@ main .description {
   text-align: center;
   padding: 15px;
 }
+main .card {
+  background-color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
