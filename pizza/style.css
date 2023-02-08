@@ -71,6 +71,7 @@ main .description {
 }
 main .cards {
   padding: 20px;
+  padding-top: 10px;
 }
 main .cards .card {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
