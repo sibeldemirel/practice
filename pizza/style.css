@@ -85,9 +85,9 @@ main .cards .card .image img {
   height: 190px;
   width: 200px;
 }
-main .cards .card .pizza-title {
+main .cards .card .pizzaTitle {
   padding-bottom: 20px;
-  font-family: "Montserrat500", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
 main .cards .card button {
