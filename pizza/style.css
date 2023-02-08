@@ -137,4 +137,12 @@ main .cards .card .prices .old-price {
   font-weight: bold;
 }
 
+footer {
+  text-align: center;
+  font-family: "Open Sans600", sans-serif;
+  color: white;
+  background-color: rgb(48, 48, 48);
+  padding: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
