@@ -1,0 +1,68 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container {
+    margin-top: 80px;
+    margin-left: 330px;
+}
+
+
+.description{
+    border-top: 15px solid rgb(216, 67, 3);
+    display: flex;
+    width: 800px;
+    background-color: white;
+    padding-bottom: 0;
+    justify-content: space-between;
+}
+
+.description h3{
+    font-size: 20px;
+    margin-right: 0;
+}
+
+.description img{
+    width: 130px;
+    height: 200px;
+    padding: 40px;
+}
+
+.description .detail{
+    padding: 100px 0 40px 20px;
+
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.description p{
+    margin-top: 20px;
+}
+
+.abv{
+    font-weight: bold;
+}
+
+.container-2{
+    background-color: white;
+    width: 800px;
+    
+}
+
+.alc{
+    margin-left: 20px;
+}
+
+
+.foodpairing{
+margin-top: 30px;
+margin-left: 20px;
+}
+
+.element{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
