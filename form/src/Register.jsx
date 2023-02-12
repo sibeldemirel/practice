@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 
-export const Register = () => {
+export const Register = (props) => {
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
     const [name, setName] = useState('');
@@ -12,7 +12,7 @@ export const Register = () => {
     }
 
     return(
-        <>
+        <div className='form-container'>
         <form onSubmit={handleSubmit}>
             <label htmlFor="name">Full name</label>
             <input value={name} onChange={(e)=>setName(e.target.value)} type="text" name='name' id='name' placeholder='Full Name'/>
@@ -25,7 +25,7 @@ export const Register = () => {
 
             <button type="submit">Log In</button>
         </form>
-        <button>Already have an account ? Login here.</button>
-        </>
+        <button onClick={() => props.onFormSwitch('login')}>Already have an account ? Login here.</button>
+        </div>
     )
 }
