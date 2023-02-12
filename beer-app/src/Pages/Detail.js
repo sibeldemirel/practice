@@ -17,7 +17,7 @@ function Detail() {
       });
   };
 
-  useEffect(() => fetchBeers(), []);
+  useEffect(() => fetchBeers());
 
   return (
     <div className="container">
