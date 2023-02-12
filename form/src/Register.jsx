@@ -13,7 +13,8 @@ export const Register = (props) => {
 
     return(
         <div className='form-container'>
-        <form onSubmit={handleSubmit}>
+            <h2>Register</h2>
+        <form className='register-form' onSubmit={handleSubmit}>
             <label htmlFor="name">Full name</label>
             <input value={name} onChange={(e)=>setName(e.target.value)} type="text" name='name' id='name' placeholder='Full Name'/>
 
@@ -25,7 +26,7 @@ export const Register = (props) => {
 
             <button type="submit">Log In</button>
         </form>
-        <button onClick={() => props.onFormSwitch('login')}>Already have an account ? Login here.</button>
+        <button className='link-btn' onClick={() => props.onFormSwitch('login')}>Already have an account ? Login here.</button>
         </div>
     )
 }
