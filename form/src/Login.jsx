@@ -8,7 +8,7 @@ export const Login = (props) => {
     const handleSubmit = (e) => {
         //to prevent the page frome reloading and losing the state
         e.preventDefault();
-        console.log(email);
+        // console.log(email);
     }
     
     return(

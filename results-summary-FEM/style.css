@@ -1,0 +1,12 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.large-container{
+    max-width: 1000px;
+    max-height: 1000px;
+    padding: 30px;
+    margin: auto;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;;
+}
